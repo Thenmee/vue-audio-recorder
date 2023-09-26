@@ -32,10 +32,7 @@ export default class {
   start () {
     const constraints = {
       video: false,
-      audio: {
-        channelCount: 1,
-        echoCancellation: false
-      }
+      audio: true
     }
 
     this.beforeRecording && this.beforeRecording('start recording')
